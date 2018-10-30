@@ -304,6 +304,11 @@ p.explanation{
 	float:left;
 	line-height:50px;
 }
+.floats-5{
+	width:20%;
+	float:left;
+	line-height:50px;
+}
 .mid-title{
   width:auto;
   text-align:center;

@@ -9,7 +9,7 @@ class Footer extends React.Component{
          "year":null   
         }
     }
-
+    
     componentWillMount(){
     
         this.setState({
@@ -28,6 +28,6 @@ class Footer extends React.Component{
         )
     }
 }
-
+    
 export default Footer;
                 
