@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {logo} from '../images/logo.svg'
+import {withRouter} from 'react-router-dom';
 import Header from '../components/Header';
 import BiggerHeader from '../components/BiggerHeader';
 import Background from '../components/Background';
@@ -34,4 +34,4 @@ class Home extends React.Component{
 
 }
 
-export default Home;
+export default withRouter(Home);

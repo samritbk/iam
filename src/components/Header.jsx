@@ -1,7 +1,13 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
+import {initializeGA, registerPageView} from './ReactGA';
 
 class Header extends React.Component{
+    
+    componentDidMount(){
+        initializeGA();
+        registerPageView(this.props.location.pathname);
+    }
     render(){   
         return(
             <div className="nav-holder">
@@ -29,4 +35,4 @@ class Header extends React.Component{
 
 }
 
-export default Header;
+export default withRouter(Header);
