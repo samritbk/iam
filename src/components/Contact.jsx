@@ -9,7 +9,6 @@ class Contact extends React.Component{
                 <div className="contact">
                     <div className="floats-3">
                         <div className="whiteboxes">
-                            <i className="ion-map"></i>
                     <div className="infoText">ADDRESS</div>
                     <div className="liner"></div>
                         <a href=" "><div className="infoText">Winnipeg, Manitoba</div></a>
@@ -17,20 +16,22 @@ class Contact extends React.Component{
                         </div>
                     <div className="floats-3">
                         <div className="whiteboxes">
-                            <i className="ion-ios-telephone"></i>
-                    <div  className="infoText">PHONE</div>
+                    <div  className="infoText">LinkedIn</div>
                     <div className="liner"></div>
-                        <a href=" "><div  className="infoText">(204) 951 6777</div></a>
-                            </div>
+                        <a href="https://www.linkedin.com/in/berakib">
+                            <div  className="infoText">Beraki Befekadu</div>
+                        </a>
                         </div>
+                    </div>
                     <div className="floats-3">
                         <div className="whiteboxes">
-                            <i className="ion-at"></i>
-                    <div  className="infoText">EMAIL</div>
+                    <div  className="infoText">Github</div>
                     <div className="liner"></div>
-                        <a href=" "><div  className="infoText">contact@beraki.info</div></a>
-                            </div>
+                        <a href="https://github.com/samritbk/">
+                        <div  className="infoText">@samritbk</div>
+                        </a>
                         </div>
+                    </div>
                         <div className="clear"></div>
                 </div>
                 </div>
