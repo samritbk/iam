@@ -15,7 +15,7 @@ class MainWhat extends React.Component{
 					<div className="floats-3">
 						<h3 className="lang">Web Design</h3>
 						<div className="clear"></div>
-						<div className="langDesc">Capable of working on many different kinds of web applications, responsive websites and non-responsive websites.</div>
+						<div className="langDesc">Experience working with many different kinds of web applications, responsive websites and non-responsive websites.</div>
 					</div>
 					<div className="floats-3">
 						<h3 className="lang">App Development</h3>
