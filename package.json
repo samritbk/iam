@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "merge": ">=1.2.1",
+    "merge": ">=2.1.1",
     "@types/jquery": "^3.3.21",
     "@types/react-router-dom": "^4.3.1",
     "jquery": "^3.4.0",
@@ -15,7 +15,7 @@
     "react-scripts": "^1.1.5"
   },
   "devDependencies": {
-    "merge": ">=1.2.1"
+    "merge": ">=2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
